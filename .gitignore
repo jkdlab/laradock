@@ -1,7 +1,7 @@
 .idea
 /logs
 /data
-.env
+# .env
 /.project
 .docker-sync
 /jenkins/jenkins_home
@@ -13,9 +13,9 @@
 /nginx/ssl/*.key
 /nginx/ssl/*.csr
 
-/.devcontainer/*
-!/.devcontainer/devcontainer.example.json
-!/.devcontainer/docker-compose.extend-example.yml
+# /.devcontainer/*
+# !/.devcontainer/devcontainer.example.json
+# !/.devcontainer/docker-compose.extend-example.yml
 
 docker-compose.custom.yml
 
